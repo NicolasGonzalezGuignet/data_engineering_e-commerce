@@ -2,8 +2,8 @@
 <html lang="en">
 <body>
 
-<h1>SoftCart Data Platform Architecture</h1>
-
+<h1>Data engineering e-commerce project</h1>
+<h2>A fully dockerized ELT pipeline project, using MYSQL, mongoDB, Apache Airflow, and PowerBI</h2>
 <h2>Overview</h2>
 <p>SoftCart is an e-commerce company that employs a hybrid data platform architecture, combining both on-premises and cloud-based databases to manage its operations.</p>
 
