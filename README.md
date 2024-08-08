@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoftCart Data Platform Architecture</title>
-</head>
 <body>
 
 <h1>SoftCart Data Platform Architecture</h1>
