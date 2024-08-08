@@ -29,10 +29,10 @@
 <h3>2. Data Flow and Storage</h3>
 <p>Data from <strong>MySQL</strong> and <strong>MongoDB</strong> is regularly extracted and transferred to the staging data warehouse on <strong>MySQL</strong>. The production data warehouse resides on <strong>MySQL</strong>, where the data is prepared for analysis.</p>
 
-<h3>4. Business Intelligence</h3>
+<h3>3. Business Intelligence</h3>
 <p>The BI team connects to the <strong>MySQL</strong> production warehouse to create operational dashboards.</p>
 
-<h3>5. Data Pipelines</h3>
+<h3>4. Data Pipelines</h3>
 <p>Data movement between OLTP, NoSQL, and the data warehouse is managed by ETL pipelines running on <strong>Apache Airflow</strong>.</p>
 
 
