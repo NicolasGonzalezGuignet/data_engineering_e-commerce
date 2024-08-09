@@ -39,8 +39,31 @@
 
 <p>Make sure you have docker installed on local machine.</p>
 
-<li>Docker</li>
-<li>DockerCompose</li>
+    <li>Docker</li>
+    <li>DockerCompose</li>
+
+<h3>Installation</h3>
+
+<p> 1.Clone the repo. </p>
+
+<p> git clone https://github.com/bereketkibru/Data_engineering_sensor_data](https://github.com/NicolasGonzalezGuignet/data_engineering_e-commerce </p>
+<p>Run (in the directory where docker compose is located)</p>
+ docker-compose up airflow-init                              (to initialize critical services and prevent errors)
+ docker-compose up
+<p>Open Airflow web browser</p>
+Navigate to `http://localhost:8000/` on the browser
+Activate and trigger DAGs
+
+Access your to UI MongoDB database
+Navigate to `http://localhost:8081/` on the browser
+
+In the local terminal, run 
+docker exec -it <mysql-container-name> bash       (to access the terminal inside the container that has the mysql image) 
+then run 
+mysql -u root -p example               (to access mysql and interact) 
+
+use `root` for username
+use `example` for password
 
 </body>
 </html>
