@@ -33,6 +33,13 @@
 <h3>4. Data Pipelines</h3>
 <p>Data movement between OLTP, NoSQL, and the data warehouse is managed by ETL pipelines running on <strong>Apache Airflow</strong>.</p>
 
+<h2>Getting Started</h2>
+
+<h3>Prerequisites</h3>
+
+<h4>Make sure you have docker installed on local machine.</h4>
+<p>Docker</p>
+<p>DockerCompose</p>
 
 </body>
 </html>
