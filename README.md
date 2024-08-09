@@ -37,9 +37,10 @@
 
 <h3>Prerequisites</h3>
 
-<h4>Make sure you have docker installed on local machine.</h4>
-<p>Docker</p>
-<p>DockerCompose</p>
+<p>Make sure you have docker installed on local machine.</p>
+
+<li>Docker</li>
+<li>DockerCompose</li>
 
 </body>
 </html>
