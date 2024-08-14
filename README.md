@@ -50,16 +50,21 @@ DockerCompose
     git clone https://github.com/NicolasGonzalezGuignet/data_engineering_e-commerce
     
 <p>2.Run (in the directory where docker compose is located)</p>
-     docker-compose up airflow-init                              (to initialize critical services and prevent errors)
-     docker-compose up
+
+    docker-compose up airflow-init                              (to initialize critical services and prevent errors)
+    docker-compose up
+    
 <p>3.Open Airflow web browser</p>
+
     Navigate to `http://localhost:8000/` on the browser.
     Activate and trigger DAGs.
 
 <p>4.Access your to UI MongoDB database.</p>
+
     Navigate to `http://localhost:8081/` on the browser
 
 <p>5.In the local terminal, run </p>
+
     docker exec -it <mysql-container-name> bash       (to access the terminal inside the container that has the mysql image) 
     then run 
     mysql -u root -p example               (to access mysql and interact) 
