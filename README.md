@@ -39,17 +39,17 @@
 
 <p>Make sure you have docker installed on local machine.</p>
 
-    Docker
-    DockerCompose
+Docker
+DockerCompose
 
 <h3>Installation</h3>
 
 <p> 1.Clone the repo. </p>
 
-<p> git clone https://github.com/NicolasGonzalezGuignet/data_engineering_e-commerce </p>
+    <p> git clone https://github.com/NicolasGonzalezGuignet/data_engineering_e-commerce </p>
 <p>Run (in the directory where docker compose is located)</p>
- docker-compose up airflow-init                              (to initialize critical services and prevent errors)
- docker-compose up
+     docker-compose up airflow-init                              (to initialize critical services and prevent errors)
+     docker-compose up
 <p>Open Airflow web browser</p>
 <p>Navigate to `http://localhost:8000/` on the browser.</p>
 <p>Activate and trigger DAGs</p>
