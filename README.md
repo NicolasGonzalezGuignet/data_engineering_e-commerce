@@ -39,8 +39,8 @@
 
 <p>Make sure you have docker installed on local machine.</p>
 
-    <li>Docker</li>
-    <li>DockerCompose</li>
+    Docker
+    DockerCompose
 
 <h3>Installation</h3>
 
