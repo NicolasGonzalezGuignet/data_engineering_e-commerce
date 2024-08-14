@@ -46,16 +46,16 @@
 
 <p> 1.Clone the repo. </p>
 
-<p> git clone https://github.com/bereketkibru/Data_engineering_sensor_data](https://github.com/NicolasGonzalezGuignet/data_engineering_e-commerce </p>
+<p> git clone https://github.com/NicolasGonzalezGuignet/data_engineering_e-commerce </p>
 <p>Run (in the directory where docker compose is located)</p>
  docker-compose up airflow-init                              (to initialize critical services and prevent errors)
  docker-compose up
 <p>Open Airflow web browser</p>
-Navigate to `http://localhost:8000/` on the browser
-Activate and trigger DAGs
+<p>Navigate to `http://localhost:8000/` on the browser.</p>
+<p>Activate and trigger DAGs</p>
 
-Access your to UI MongoDB database
-Navigate to `http://localhost:8081/` on the browser
+<p>Access your to UI MongoDB database.</p>
+<p>Navigate to `http://localhost:8081/` on the browser</p>
 
 In the local terminal, run 
 docker exec -it <mysql-container-name> bash       (to access the terminal inside the container that has the mysql image) 
